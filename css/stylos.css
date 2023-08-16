@@ -1,0 +1,128 @@
+body {
+  background: #fff;
+  direction: ltr;
+  font-size: 14px;
+  line-height: 1.4286;
+  margin: 0;
+  padding: 0;
+}
+
+.caja {
+  width: 450px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  display: block;
+  flex-shrink: 0;
+  margin: 0 auto;
+  min-height: 0;
+  width: 450px;
+  padding: 30px;
+}
+
+.acceder {
+  padding-bottom: 0;
+  padding-top: 16px;
+  color: rgb(32, 33, 36);
+  font-size: 24px;
+  font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.3333;
+  margin-bottom: 0;
+  margin-top: 0;
+  word-break: break-word;
+}
+
+.usar {
+  padding-bottom: 1px;
+  padding-top: 7px;
+  color: rgb(32, 33, 36);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+}
+
+.inputCorre {
+  box-flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: transparent;
+  border: none;
+  display: block;
+  font: 400 16px Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  height: 24px;
+  line-height: 24px;
+  margin: 0;
+  min-width: 0%;
+  outline: none;
+  padding: 0;
+  z-index: 0;
+}
+
+.olvidaste {
+  border-radius: 4px;
+  color: rgb(26, 115, 232);
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  outline: 0;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: inherit;
+  text-align: left;
+  margin: -2px -3px;
+  padding: 2px 3px;
+  border: 0;
+}
+
+.masInformacion {
+  border: 0 solid transparent;
+  border-width: 0 24px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 16px;
+  padding: 24px 0 0;
+  vertical-align: top;
+  white-space: normal;
+  width: 400px;
+  color: rgb(108, 112, 116);
+  font-size: 14px;
+  line-height: 1.4286;
+}
+
+.linkInformacion{
+  text-decoration: none;
+}
+
+.caja2 {
+  display: flex;
+justify-content: space-between;
+
+  width: 100%;
+}
+
+.crearCuenta {
+  color: rgb(26, 115, 232);
+  text-align: left;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.0107142857em;
+  font-weight: 500;
+  text-transform: none;
+  cursor: pointer;
+}
+
+.botonSiguiente {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.0107142857em;
+  font-weight: 500;
+  text-transform: none;
+  transition: border 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: none;
+  color: #fff;
+  width: 120px;
+}
